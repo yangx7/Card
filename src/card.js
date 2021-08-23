@@ -1,14 +1,22 @@
 import "./styles/card.css";
 import Figure from "./catagories/figure";
+import Vocabulary from "./catagories/vocabulary";
 import FlipCard from "./components/flipCard";
 
 function Card() {
   return (
-    <div className="card">
-      <FlipCard>
-        <Figure />
-      </FlipCard>
-    </div>
+    <ul>
+      <div className="card">
+        <FlipCard>
+          <Figure />
+        </FlipCard>
+      </div>
+      <div className="card">
+        <FlipCard>
+          <Vocabulary />
+        </FlipCard>
+      </div>
+    </ul>
   );
 }
 
