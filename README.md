@@ -1,7 +1,7 @@
 ## Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)\
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
 
 ## Available Scripts
 
@@ -40,17 +40,17 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## How to make various css styles of cards
+## Reference
 
-Basic Flip Card: [Awesome Card Flip Animation using CSS & JavaScript - Easy tutorial](https://www.youtube.com/watch?v=QGVXmoZWZuw&list=WL)
+### How to make various css styles of cards:
 
-## How to set up Webpack for React projects
+- [Basic Flip Card](https://www.youtube.com/watch?v=QGVXmoZWZuw&list=WL)
 
-[A Complete Webpack Setup for React](https://medium.com/swlh/a-complete-webpack-setup-for-react-e56a2edf78ae#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjZlZjRiZDkwODU5MWY2OTdhOGE5Yjg5M2IwM2U2YTc3ZWIwNGU1MWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2Mjk3NzYyMTQsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwOTg3OTg4NTQ2MjE2NTU4OTE3MyIsImVtYWlsIjoieW91bmd4MTAxeEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiMjE2Mjk2MDM1ODM0LWsxazZxZTA2MHMydHAyYTJqYW00bGpkY21zMDBzdHRnLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwibmFtZSI6IllhbmcgWGlhbyIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQU9oMTRHajdqdjc4bkhJblBpWUlkSWczOXdRZU1TQzNhbUFBeDRFNWw3OEw9czk2LWMiLCJnaXZlbl9uYW1lIjoiWWFuZyIsImZhbWlseV9uYW1lIjoiWGlhbyIsImlhdCI6MTYyOTc3NjUxNCwiZXhwIjoxNjI5NzgwMTE0LCJqdGkiOiI4ZDlhNDM1MGFlYWEyYTNmODZjNmNhNjcwNmY2Yjk3ODU1MjFjMGMzIn0.aTQHss6dzQy-DPIpeSmLioQwMOW2hqJA5rxyWBPBcDQahmhFmtLkrHH8iggv0Uc63mNqP_m0cPf3gsRg6PI-xkkVTijO6vCjHP2NYYWWVM2deUuxR1QOyY0D9UOb0-MJ7J-FaARCnjiYfPvBjH06LbwgoxFGdxuqXBScD_wvVwt1bV5lXcUU_rn2n3BpaYRckdoR_CL-UxsQgjM371IRkBd_OGPxHUQSuuzzyyk58h7FUpZd6rQ2JCyWgTLANWyB2i5jgwOmJy-B9E4nFYJNZchkdIdPyCvnCCghnLkOkyCaXcei3AthTNiqsT7nK9rNpayzUt476OpPvjgqvW6j3Q)
+### How to set up Webpack for React projects:
 
-## Technical problems encountered
+- [A Complete Webpack Setup for React](https://medium.com/swlh/a-complete-webpack-setup-for-react-e56a2edf78ae#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjZlZjRiZDkwODU5MWY2OTdhOGE5Yjg5M2IwM2U2YTc3ZWIwNGU1MWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2Mjk3NzYyMTQsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwOTg3OTg4NTQ2MjE2NTU4OTE3MyIsImVtYWlsIjoieW91bmd4MTAxeEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiMjE2Mjk2MDM1ODM0LWsxazZxZTA2MHMydHAyYTJqYW00bGpkY21zMDBzdHRnLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwibmFtZSI6IllhbmcgWGlhbyIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQU9oMTRHajdqdjc4bkhJblBpWUlkSWczOXdRZU1TQzNhbUFBeDRFNWw3OEw9czk2LWMiLCJnaXZlbl9uYW1lIjoiWWFuZyIsImZhbWlseV9uYW1lIjoiWGlhbyIsImlhdCI6MTYyOTc3NjUxNCwiZXhwIjoxNjI5NzgwMTE0LCJqdGkiOiI4ZDlhNDM1MGFlYWEyYTNmODZjNmNhNjcwNmY2Yjk3ODU1MjFjMGMzIn0.aTQHss6dzQy-DPIpeSmLioQwMOW2hqJA5rxyWBPBcDQahmhFmtLkrHH8iggv0Uc63mNqP_m0cPf3gsRg6PI-xkkVTijO6vCjHP2NYYWWVM2deUuxR1QOyY0D9UOb0-MJ7J-FaARCnjiYfPvBjH06LbwgoxFGdxuqXBScD_wvVwt1bV5lXcUU_rn2n3BpaYRckdoR_CL-UxsQgjM371IRkBd_OGPxHUQSuuzzyyk58h7FUpZd6rQ2JCyWgTLANWyB2i5jgwOmJy-B9E4nFYJNZchkdIdPyCvnCCghnLkOkyCaXcei3AthTNiqsT7nK9rNpayzUt476OpPvjgqvW6j3Q)
 
-How to dynamically import images:
+### How to dynamically import images:
 
 - [Dynamically import images from a directory using webpack](https://stackoverflow.com/questions/42118296/dynamically-import-images-from-a-directory-using-webpack)\
 - [Webpack require.context](https://webpack.js.org/guides/dependency-management/#requirecontext)
