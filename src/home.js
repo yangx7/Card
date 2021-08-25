@@ -5,7 +5,7 @@ import Thumbnail from "./components/thumbnail";
 function Home() {
   const content = [
     { title: "Word" },
-    { title: "figure", img: "images/C.Ronaldo.jpg" },
+    { title: "figure", img: "/images/C.Ronaldo.jpg" },
   ];
   return (
     <div className="home">
