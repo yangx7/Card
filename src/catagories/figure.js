@@ -1,4 +1,5 @@
 import "../styles/figure.css";
+import React from "react";
 
 function Figure() {
   return (

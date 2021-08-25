@@ -1,4 +1,5 @@
 import "./styles/card.css";
+import React from "react";
 import Figure from "./catagories/figure";
 import Vocabulary from "./catagories/vocabulary";
 import FlipCard from "./components/flipCard";
