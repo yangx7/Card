@@ -1,6 +1,6 @@
-import "./styles/home.css";
+import "../styles/home.css";
 import React from "react";
-import Thumbnail from "./components/thumbnail";
+import Thumbnail from "./thumbnail";
 
 function Home() {
   const content = [
