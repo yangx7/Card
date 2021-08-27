@@ -1,4 +1,4 @@
-import "../styles/home.css";
+import style from "../styles/home.module.css";
 import React from "react";
 import Thumbnail from "./thumbnail";
 
@@ -8,7 +8,7 @@ function Home() {
     { title: "figure", img: "C.Ronaldo.jpg" },
   ];
   return (
-    <div className="home">
+    <div className={style.home}>
       {content.map((c) => (
         <Thumbnail title={c.title} img={c.img} key={c.title} />
       ))}
