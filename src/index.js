@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Home from "./components/home";
 
-import "./index.css";
+import "./styles/index.scss";
 
 const App = () => {
   return <Home />;

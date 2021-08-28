@@ -21,7 +21,7 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.css$/,
+        test: /\.scss$/,
         exclude: /node_modules/,
         use: [
           { loader: "style-loader" },
@@ -34,6 +34,7 @@ module.exports = {
               sourceMap: true,
             },
           },
+          { loader: "sass-loader" },
           {
             loader: "postcss-loader",
             options: {
