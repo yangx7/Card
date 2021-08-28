@@ -1,6 +1,6 @@
-// import "../styles/home.scss";
 import React from "react";
 import Thumbnail from "./thumbnail";
+import style from "../styles/home.scss";
 
 function Home() {
   const content = [
@@ -8,7 +8,7 @@ function Home() {
     { title: "figure", img: "C.Ronaldo.jpg" },
   ];
   return (
-    <div className="home">
+    <div className={style.home}>
       {content.map((c) => (
         <Thumbnail title={c.title} img={c.img} key={c.title} />
       ))}
