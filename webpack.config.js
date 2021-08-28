@@ -11,7 +11,7 @@ module.exports = {
     publicPath: "",
   },
   resolve: {
-    extensions: [".js", ".jsx"],
+    extensions: [".js", ".scss"],
   },
   module: {
     rules: [
@@ -28,9 +28,9 @@ module.exports = {
           {
             loader: "css-loader",
             options: {
-              modules: {
-                localIdentName: "[name]__[local]___[hash:base64:5]",
-              },
+              // modules: {
+              //   localIdentName: "[name]__[local]___[hash:base64:5]",
+              // },
               sourceMap: true,
             },
           },
