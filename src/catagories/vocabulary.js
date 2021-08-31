@@ -1,4 +1,3 @@
-import "../styles/vocabulary.css";
 import React from "react";
 
 function Vocabulary() {

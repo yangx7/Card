@@ -1,4 +1,3 @@
-import "../styles/flipCard.css";
 import React, { useState } from "react";
 
 function FlipCard(props) {
