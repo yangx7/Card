@@ -7,13 +7,10 @@ function Thumbnail(props) {
   // console.log("style", style);
 
   return (
-    <div className="thumbnail">
-      {props.img ? (
-        <img src={images[props.img]} alt="" className="img" />
-      ) : (
-        <h4 className="title">{props.title}</h4>
-      )}
-    </div>
+    <figure className="thumbnail">
+      <img src={images[props.img]} alt="" className="img" />
+      <figcaption className="caption">{props.caption}</figcaption>
+    </figure>
   );
 }
 
