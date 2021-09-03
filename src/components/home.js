@@ -3,8 +3,8 @@ import Thumbnail from "./thumbnail";
 
 function Home() {
   const catagories = [
-    { caption: "Vocabulary" },
     { img: "C.Ronaldo.jpg", caption: "Figure" },
+    { caption: "Vocabulary" },
   ];
   return (
     <div className="home">
