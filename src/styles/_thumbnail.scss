@@ -1,6 +1,10 @@
 .thumbnail {
   cursor: pointer;
 
+  a {
+    text-decoration: none;
+  }
+
   .img {
     width: 150px;
     height: 200px;

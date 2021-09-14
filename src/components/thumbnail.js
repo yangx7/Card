@@ -9,8 +9,8 @@ function Thumbnail(props) {
 
   return (
     <figure className="thumbnail">
-      <img src={images[props.img]} alt="" className="img" />
       <Link to="/card">
+        <img src={images[props.img]} alt="" className="img" />
         <figcaption className="caption">
           <h4 className="caption__content">{props.caption}</h4>
         </figcaption>
