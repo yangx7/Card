@@ -9,7 +9,7 @@ function Thumbnail(props) {
 
   return (
     <figure className="thumbnail">
-      <Link to="/card">
+      <Link to={`/card/${props.category}`}>
         <img src={images[props.img]} alt="" className="img" />
         <figcaption className="caption">
           <h4 className="caption__content">{props.caption}</h4>

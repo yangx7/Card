@@ -9,7 +9,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Route path="/" exact component={Home} />
-      <Route path="/card" component={Card} />
+      <Route path="/card/:category" component={Card} />
     </BrowserRouter>
   );
 };
