@@ -1,7 +1,12 @@
 .card {
-  width: 400px;
-  height: 570px;
-  margin: 100px auto 0;
-  perspective: 1000px;
-  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  position: relative;
+  cursor: pointer;
+}
+
+.card.is__flipped {
+  transform: rotateY(180deg);
 }

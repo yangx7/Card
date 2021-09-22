@@ -1,14 +1,17 @@
 import React from "react";
+import Card from "../components/card";
 
-function Vocabulary() {
+function Vocabulary(props) {
   return (
     <div className="vocabulary">
-      <div className="card__face card__face__front">
-        <h2>Vocabulary</h2>
-      </div>
-      <div className="card__face card__face__back">
-        <h2>词汇</h2>
-      </div>
+      <Card>
+        <div className="card__face card__face__front">
+          <h2>{props.word}</h2>
+        </div>
+        <div className="card__face card__face__back">
+          <h2>{props.meaning}</h2>
+        </div>
+      </Card>
     </div>
   );
 }

@@ -1,20 +1,20 @@
 import React from "react";
+import Card from "../components/card";
 import importImages from "../utils";
 
-function Figure() {
+function Figure(props) {
   const images = importImages();
+
   return (
     <div className="figure">
-      <div className="card__face card__face__front">
-        <img
-          src={`${window.location.origin}/${images["C.Ronaldo.jpg"]}`}
-          alt=""
-          className="img"
-        />
-      </div>
-      <div className="card__face card__face__back">
-        <h2>C.Ronaldo</h2>
-      </div>
+      <Card>
+        <div className="card__face card__face__front">
+          <img src={images[props.img]} alt="" className="img" />
+        </div>
+        <div className="card__face card__face__back">
+          <h2>{props.name}</h2>
+        </div>
+      </Card>
     </div>
   );
 }

@@ -7,7 +7,9 @@ export default function importImages() {
     /\.(png|jpe?g|svg)$/
   );
   request.keys().forEach((item) => {
-    images[item.replace("./", "")] = request(item).default;
+    images[item.replace("./", "")] = `${window.location.origin}/${
+      request(item).default
+    }`;
   });
 
   return images;
