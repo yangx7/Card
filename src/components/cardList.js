@@ -7,27 +7,25 @@ function CardList(props) {
   const lists = {
     figure: [{ img: "C.Ronaldo.jpg", name: "C.Ronaldo" }],
     vocabulary: [
-      { word: "Vocabulary", meaning: "单词" },
+      { word: "vocabulary", meaning: "单词" },
       { word: "cat", meaning: "猫" },
     ],
   };
 
-  switch (category) {
-    case "figure":
-      return lists[category].map((item) => (
-        <div className="card__list">
-          <Figure {...item} />
-        </div>
-      ));
-    case "vocabulary":
-      return lists[category].map((item) => (
-        <div className="card__list">
-          <Vocabulary {...item} />
-        </div>
-      ));
-    default:
-      return null;
-  }
+  return (
+    <div className="card__list">
+      {lists[category].map((item) => {
+        switch (category) {
+          case "figure":
+            return <Figure {...item} />;
+          case "vocabulary":
+            return <Vocabulary {...item} />;
+          default:
+            return null;
+        }
+      })}
+    </div>
+  );
 }
 
 export default CardList;
