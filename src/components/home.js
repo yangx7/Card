@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./navbar";
 import Thumbnail from "./thumbnail";
 
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
   ];
   return (
     <div className="home">
+      <Navbar />
       {catagories.map((c) => (
         <Thumbnail
           img={c.img}
