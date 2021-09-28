@@ -1,6 +1,8 @@
 .home {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  margin: 100px;
+  .catagories {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 100px;
+  }
 }

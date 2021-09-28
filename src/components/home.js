@@ -10,14 +10,16 @@ function Home() {
   return (
     <div className="home">
       <Navbar />
-      {catagories.map((c) => (
-        <Thumbnail
-          img={c.img}
-          caption={c.caption}
-          key={c.caption}
-          category={c.category}
-        />
-      ))}
+      <div className="catagories">
+        {catagories.map((c) => (
+          <Thumbnail
+            img={c.img}
+            caption={c.caption}
+            key={c.caption}
+            category={c.category}
+          />
+        ))}
+      </div>
     </div>
   );
 }
